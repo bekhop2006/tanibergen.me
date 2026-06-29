@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Beknur Tanibergen</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <a href="/" class="brand">
+          <div class="name">Beknur Tanibergen</div>
+          <div class="role">Software Engineer</div>
+        </a>
+        <p class="bio">Web apps by day, QA mindset always. Based in Kazakhstan.</p>
+        <nav class="nav">
+          <a href="/"><span class="num">01</span><span>Home</span></a>
+          <a href="/about/"><span class="num">02</span><span>About</span></a>
+          <a href="/projects/"><span class="num">03</span><span>Projects</span></a>
+          <a href="/blog/"><span class="num">04</span><span>Writing</span></a>
+          <a href="/uses/"><span class="num">05</span><span>Uses</span></a>
+          <a href="/contact/" class="active"><span class="num">06</span><span>Contact</span></a>
+        </nav>
+        <div class="sidebar-foot">
+          <span class="status"><span class="dot"></span>Available for work</span>
+          <a href="mailto:bekhop2006@gmail.com">bekhop2006@gmail.com</a>
+          <a href="https://github.com/bekhop2006" target="_blank" rel="noopener noreferrer">github.com/bekhop2006</a>
+          <span>© 2026</span>
+        </div>
+      </aside>
+
+      <main class="main">
+        <section class="hero">
+          <div class="eyebrow">Contact</div>
+          <h1>Where to reach me.</h1>
+          <p class="lede">Email is best. I usually reply within a day or two.</p>
+        </section>
+
+        <section class="block">
+          <div class="section-label">Direct</div>
+          <div class="linklist">
+            <a href="mailto:bekhop2006@gmail.com">
+              <span>bekhop2006@gmail.com</span>
+              <span class="arrow">↗</span>
+            </a>
+            <a href="https://github.com/bekhop2006" target="_blank" rel="noopener noreferrer">
+              <span>GitHub</span>
+              <span class="arrow">↗</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="block">
+          <div class="section-label">Logistics</div>
+          <p>Based in Kazakhstan (UTC+6). Open to remote work and internships.</p>
+        </section>
+
+        <section class="block">
+          <div class="section-label">Or send a note</div>
+          <form class="form" id="contact-form">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send →</button>
+          </form>
+        </section>
+      </main>
+
+      <footer class="foot">
+        <span>Beknur Tanibergen · Kazakhstan</span>
+        <span><a href="/">← Home</a></span>
+      </footer>
+    </div>
+    <script src="/js/contact.js"></script>
+  </body>
+</html>
